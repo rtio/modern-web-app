@@ -73,3 +73,28 @@ Add webpack and webpack-cli on your project.
 ```bash
 yarn add webpack webpack-cli --dev
 ```
+
+### Get started
+
+Create those new files. Get the content of the files on the project.
+
+```diff
+  modern-web-app
+  ...
++ |- index.html
++ |- /src
++   |- index.js
+```
+
+Now update the `package.json` file.
+
+```diff
+ {
+   "name": "modern-web-app",
++  "private": true,
+   "packageManager": "yarn@3.6.1",
+   "devDependencies": {
+     "webpack": "^5.88.1",
+     "webpack-cli": "^5.1.4"
+   }
+ }

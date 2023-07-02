@@ -68,8 +68,8 @@ yarn init -2
 
 ### Install webpack
 
-Add webpack on your project.
+Add webpack and webpack-cli on your project.
 
 ```bash
-yarn add webpack --dev
+yarn add webpack webpack-cli --dev
 ```

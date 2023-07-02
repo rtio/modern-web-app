@@ -1,6 +1,10 @@
 {
   "name": "modern-web-app",
+  "private": true,
   "packageManager": "yarn@3.6.1",
+  "scripts": {
+    "build": "webpack"
+  },
   "devDependencies": {
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4"

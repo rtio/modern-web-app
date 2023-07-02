@@ -98,3 +98,15 @@ Now update the `package.json` file.
      "webpack-cli": "^5.1.4"
    }
  }
+```
+
+Let's get back to `index.js` file, extracted this quote from [the original documentation](https://webpack.js.org/guides/getting-started/#basic-setup) so feel free to explore it:
+
+> In this example, there are implicit dependencies between the <script> tags. Our index.js file depends on lodash being included in the page before it runs. This is because index.js never explicitly declared a need for lodash; it assumes that the global variable _ exists.
+> 
+> There are problems with managing JavaScript projects this way:
+> 
+> It is not immediately apparent that the script depends on an external library.
+> If a dependency is missing, or included in the wrong order, the application will not function properly.
+> If a dependency is included but not used, the browser will be forced to download unnecessary code.
+> Let's use webpack to manage these scripts instead.

@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["lodash", "npm:4.17.21"],\
             ["webpack", "virtual:f1af0a0b370f7e8cd24ccbaedc76053f5e1c4eb3e3ced9adb8c0a061dcf75e8bf0910c0c05dafe2708eb9e2aa10c5ab0256a991dacdc7fed0a03aa250aa46330#npm:5.88.1"],\
             ["webpack-cli", "virtual:f1af0a0b370f7e8cd24ccbaedc76053f5e1c4eb3e3ced9adb8c0a061dcf75e8bf0910c0c05dafe2708eb9e2aa10c5ab0256a991dacdc7fed0a03aa250aa46330#npm:5.1.4"]\
           ],\
@@ -849,6 +850,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["lodash", [\
+        ["npm:4.17.21", {\
+          "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-eb835a2e51.zip/node_modules/lodash/",\
+          "packageDependencies": [\
+            ["lodash", "npm:4.17.21"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["merge-stream", [\
         ["npm:2.0.0", {\
           "packageLocation": "./.yarn/cache/merge-stream-npm-2.0.0-2ac83efea5-6fa4dcc8d8.zip/node_modules/merge-stream/",\
@@ -882,6 +892,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["modern-web-app", "workspace:."],\
+            ["lodash", "npm:4.17.21"],\
             ["webpack", "virtual:f1af0a0b370f7e8cd24ccbaedc76053f5e1c4eb3e3ced9adb8c0a061dcf75e8bf0910c0c05dafe2708eb9e2aa10c5ab0256a991dacdc7fed0a03aa250aa46330#npm:5.88.1"],\
             ["webpack-cli", "virtual:f1af0a0b370f7e8cd24ccbaedc76053f5e1c4eb3e3ced9adb8c0a061dcf75e8bf0910c0c05dafe2708eb9e2aa10c5ab0256a991dacdc7fed0a03aa250aa46330#npm:5.1.4"]\
           ],\

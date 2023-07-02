@@ -11,6 +11,6 @@
 #.pnp.*
 
 .DS_Store
-.dist/*
-!.dist/index.html
-!.dist/main.js.LICENSE.txt
+dist/*
+!dist/index.html
+!dist/main.js.LICENSE.txt
